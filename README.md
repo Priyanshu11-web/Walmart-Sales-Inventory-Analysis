@@ -28,6 +28,7 @@ A data analytics project using Walmart historical sales data to identify demand 
 This project analyzes Walmart historical sales data to understand how demand varies across products, categories, stores, and time.
 
 The analysis focuses on:
+
 - Overall demand trends
 - Store performance and year-over-year growth
 - Category contribution and category trends
@@ -39,7 +40,6 @@ The analysis focuses on:
 The project combines **Python, SQL Server, and Power BI** to transform a large raw dataset into structured analysis and actionable business insights.
 
 ---
-
 
 ## 🏢 Business Problem
 
@@ -60,25 +60,16 @@ The final objective was to convert these findings into practical recommendations
 ## 🎯 Project Objectives
 
 1. Understand how overall demand changes over time.
-
 2. Evaluate differences in store performance and growth.
-
 3. Understand category contribution and category demand trends.
-
 4. Examine holiday versus regular-day demand.
-
 5. Measure product demand concentration.
-
 6. Identify high-demand store-product combinations with substantial demand variability.
-
 7. Identify products with intermittent demand.
-
 8. Develop an interactive Power BI dashboard.
-
 9. Translate analytical findings into actionable business insights.
 
 ---
-
 
 ## 🔄 Project Workflow
 
@@ -94,7 +85,9 @@ Analytical Queries
 Power BI Dashboard
         ↓
 Business Insights & Recommendations
-```text
+```
+
+---
 
 ## 🐍 Data Transformation
 
@@ -123,6 +116,8 @@ data_transformation_py/
 ├── load_sales.py
 └── old_load_sales.py
 ```
+
+---
 
 ## 📊 Analysis Performed
 
@@ -242,19 +237,16 @@ These recommendations are intended as demand-planning signals. The dataset does 
 
 ---
 
-
 ## 📁 Repository Structure
 
 ```text
 Walmart-Sales-Inventory-Analysis/
 │
 ├── README.md
-│
 ├── Walmart_Sales_Inventory_Project_Documentation.pdf
 ├── Appendix_A_SQL_Queries.pdf
-├── Business_Insights_and_Recommendations.pdf
-│
-├── Walmart_Sales_Inventory_Dashboard.pbix
+├── Business_Insight.pdf
+├── Walmart_Sales_Analysis.pbix
 │
 ├── data_transformation_py/
 │   ├── load_sales.py
@@ -274,44 +266,60 @@ Walmart-Sales-Inventory-Analysis/
 │
 └── images/
     ├── dashboard_business_overview.png
-    └── dashboard_strategic_operational_insights.png
-    ```
+    ├── dashboard_strategic_operational_insights.png
+    └── power_bi_data_model.png
+```
 
-📚 Dataset Source
+---
+
+## 📚 Dataset Source
 
 The project uses the M5 Forecasting Accuracy dataset containing Walmart sales, calendar, and selling-price data.
 
 The original raw dataset is not included in this repository due to its large size.
 
-Source: Zenodo — M5 Forecasting Accuracy Dataset
+**Source:** Zenodo — M5 Forecasting Accuracy Dataset
 
-DOI: 10.5281/zenodo.12636070
+**DOI:** 10.5281/zenodo.12636070
 
-⚠️ Limitations
+---
+
+## ⚠️ Limitations
+
 The dataset covers January 29, 2011 to April 24, 2016.
+
 2016 is a partial year and should not be interpreted as a complete annual period.
+
 The analysis focuses on units sold, not revenue, profit, or margins.
+
 Actual inventory and stockout data were not available.
+
 The dataset provides limited information about the underlying causes of changes in demand.
+
 Holiday/event analysis showed only a limited overall difference between regular and holiday/event days.
-📄 Documentation
+
+---
+
+## 📄 Documentation
 
 Detailed project documentation is provided in the following files:
 
-Technical Documentation
+### Technical Documentation
 
 Covers the dataset, data preparation, SQL analysis, Power BI development, challenges, limitations, and methodology.
 
-Appendix A — SQL Queries
+### Appendix A — SQL Queries
 
 Contains the finalized SQL queries used for the analyses presented in the dashboard.
 
-Business Insights & Recommendations
+### Business Insights & Recommendations
 
 Presents the major findings from a business perspective and translates them into practical recommendations.
 
-👤 Project Goal
+---
 
-The overall Goal of this project was to transform a large-scale Walmart sales dataset into clear, data-driven business insights using Python, SQL Server, and Power BI.
+## 👤 Project Goal
+
+The overall goal of this project was to transform a large-scale Walmart sales dataset into clear, data-driven business insights using Python, SQL Server, and Power BI.
 
 The project demonstrates the complete process from data transformation and SQL analysis to visualization and business decision-making.
