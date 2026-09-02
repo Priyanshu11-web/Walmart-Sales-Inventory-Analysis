@@ -73,21 +73,20 @@ The final objective was to convert these findings into practical recommendations
 
 ## 🔄 Project Workflow
 
-```text
-Raw Walmart Dataset
-        ↓
-Python Data Transformation
-        ↓
-SQL Server
-        ↓
-Analytical Queries
-        ↓
-Power BI Dashboard
-        ↓
-Business Insights & Recommendations
-```
+**Raw Walmart Dataset**  
+↓  
+**Python Data Transformation**  
+↓  
+**SQL Server**  
+↓  
+**Analytical Queries**  
+↓  
+**Power BI Dashboard**  
+↓  
+**Business Insights & Recommendations**
 
 ---
+
 
 ## 🐍 Data Transformation
 
@@ -111,11 +110,10 @@ The data loading process was carried out in stages. Initially, SQL Server was co
 
 The Python transformation and loading scripts are included in:
 
-```text
-data_transformation_py/
-├── load_sales.py
-└── old_load_sales.py
-```
+**data_transformation_py/**
+
+- `load_sales.py`
+- `old_load_sales.py`
 
 ---
 
